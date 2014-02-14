@@ -9,7 +9,7 @@
 # cyanogen - shade@chemlab.org
 # ChrisSoyars - me@ctso.me
 
-. ${ANDROID_BUILD_TOP}/vendor/cm/codexc/colors
+. ${ANDROID_BUILD_TOP}/vendor/aosb/codexc/colors
 
 OUT_TARGET_HOST=$(uname -a | grep Darwin)
 if [ -z "$OUT_TARGET_HOST" ]

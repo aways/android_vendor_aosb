@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# Squish a CM otapackage for distribution
+# Squish a AOSB otapackage for distribution
 # cyanogen
 #
 
@@ -27,7 +27,7 @@ if [ "$TARGET_BUILD_TYPE" = "debug" ]; then
     OTAPACKAGE=$OUT/${TARGET_PRODUCT}_debug-ota-$TARGET_BUILD_VARIANT.$USER.zip
 elif [ "$TARGET_BUILD_VARIANT" = "userdebug" ]; then
     cdate=`date +"%Y%m%d"`
-    OTAPACKAGE=$OUT/cm-11-$cdate-UNOFFICIAL-n7100.zip
+    OTAPACKAGE=$OUT/aosb-v-$cdate-UNOFFICIAL-n7100.zip
 else
     OTAPACKAGE=$OUT/$TARGET_PRODUCT-ota-$TARGET_BUILD_VARIANT.$USER.zip
 fi
@@ -55,15 +55,15 @@ unzip $QUIET $OTAPACKAGE
 )
 
 # Delete ProBam specific files
-if [ -f $ANDROID_BUILD_TOP/vendor/cm/codexc/squisher.rm ]; then
-	for RM_FILE in `cat $ANDROID_BUILD_TOP/vendor/cm/codexc/squisher.rm`; do
+if [ -f $ANDROID_BUILD_TOP/vendor/aosb/codexc/squisher.rm ]; then
+	for RM_FILE in `cat $ANDROID_BUILD_TOP/vendor/aosb/codexc/squisher.rm`; do
 		rm -f $REPACK/ota/$RM_FILE
 	done
 fi
 
 # Delete target product specific files
-#if [ -f $ANDROID_BUILD_TOP/vendor/cm/codexc/$TARGET_PRODUCT-squisher.rm ]; then
-#	for RM_FILE in `cat $ANDROID_BUILD_TOP/vendor/cm/codexc/$TARGET_PRODUCT-squisher.rm`; do
+#if [ -f $ANDROID_BUILD_TOP/vendor/aosb/codexc/$TARGET_PRODUCT-squisher.rm ]; then
+#	for RM_FILE in `cat $ANDROID_BUILD_TOP/vendor/aosb/codexc/$TARGET_PRODUCT-squisher.rm`; do
 #		rm -f $REPACK/ota/$RM_FILE
 #	done
 #fi

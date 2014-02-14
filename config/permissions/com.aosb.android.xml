@@ -16,6 +16,6 @@
 
 <!-- This feature shows that this is CyanogenMod -->
 <permissions>
-    <feature name="com.cyanogenmod.android" />
+    <feature name="com.aosb.android" />
 </permissions>
 

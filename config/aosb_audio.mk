@@ -1,11 +1,11 @@
 #
-# CyanogenMod Audio Files
+# AOSB Audio Files
 #
 
-ALARM_PATH := vendor/cm/prebuilt/common/media/audio/alarms
-NOTIFICATION_PATH := vendor/cm/prebuilt/common/media/audio/notifications
-RINGTONE_PATH := vendor/cm/prebuilt/common/media/audio/ringtones
-UI_PATH := vendor/cm/prebuilt/common/media/audio/ui
+ALARM_PATH := vendor/aosb/prebuilt/common/media/audio/alarms
+NOTIFICATION_PATH := vendor/aosb/prebuilt/common/media/audio/notifications
+RINGTONE_PATH := vendor/aosb/prebuilt/common/media/audio/ringtones
+UI_PATH := vendor/aosb/prebuilt/common/media/audio/ui
 
 # Alarms
 PRODUCT_COPY_FILES += \
@@ -33,4 +33,4 @@ PRODUCT_COPY_FILES += \
 
 # SoundPack
 PRODUCT_COPY_FILES += \
-	vendor/cm/prebuilt/common/media/audio/soundpack/plodeys1.zip:system/media/audio/plodeys.zip
+	vendor/aosb/prebuilt/common/media/audio/soundpack/plodeys1.zip:system/media/audio/plodeys.zip
