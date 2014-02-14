@@ -1,19 +1,20 @@
-aosb_d800-userdebug
-aosb_d801-userdebug
-aosb_find5-userdebug
-aosb_hammerhead-userdebug
-aosb_hltexx-userdebug
-aosb_i9300-userdebug
-aosb_jflteatt-userdebug
-aosb_jfltecri-userdebug
-aosb_jfltespr-userdebug
-aosb_jflteusc-userdebug
-aosb_jfltevzw-userdebug
-aosb_jfltexx-userdebug
-aosb_m7ul-userdebug
-aosb_mako-userdebug
-aosb_mb886-userdebug
-aosb_n7100-userdebug
-aosb_t0lte-userdebug
-aosb_t0lteatt-userdebug
+add_lunch_combo aosb_d800-userdebug
+add_lunch_combo aosb_d801-userdebug
+add_lunch_combo aosb_find5-userdebug
+add_lunch_combo aosb_hammerhead-userdebug
+add_lunch_combo aosb_hltexx-userdebug
+add_lunch_combo aosb_i9300-userdebug
+add_lunch_combo aosb_jflteatt-userdebug
+add_lunch_combo aosb_jfltecri-userdebug
+add_lunch_combo aosb_jfltespr-userdebug
+add_lunch_combo aosb_jflteusc-userdebug
+add_lunch_combo aosb_jfltevzw-userdebug
+add_lunch_combo aosb_jfltexx-userdebug
+add_lunch_combo aosb_m7ul-userdebug
+add_lunch_combo aosb_mako-userdebug
+add_lunch_combo aosb_mb886-userdebug
+add_lunch_combo aosb_n7100-userdebug
+add_lunch_combo aosb_t0lte-userdebug
+add_lunch_combo aosb_t0lteatt-userdebug
+add_lunch_combo aosb_falcon-userdebug
 
